@@ -22,6 +22,13 @@ func main() {
 	}
 
 	text := string(data)
+	text = transformText(text)
+	err = os.WriteFile(outputFile, []byte(text), 0644)
+
+	if err != nil {
+		fmt.Println("Erreur d'écriture :", err)
+		os.Exit(1)
+	}
 
 	fmt.Println("Input :", inputFile)
 	fmt.Println("Output :", outputFile)
