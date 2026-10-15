@@ -1,1 +1,11 @@
-bONJOUR (cap)
+hello (up)
+WORLD (low)
+hELLO (cap)
+hello my friend (up, 3)
+HELLO MY FRIEND (low, 2)
+hello MY FRIEND (cap, 3)
+1E (hex)
+10 (bin)
+Hello , world !
+I have a apple .
+I am ' awesome '
